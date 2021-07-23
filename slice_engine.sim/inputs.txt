@@ -1,0 +1,2 @@
+/data/firmware/vivado/slice_engine/slice_engine.sim/clusters.txt
+/data/firmware/vivado/slice_engine/slice_engine.sim/clusters2.txt

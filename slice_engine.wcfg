@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="slice_engine_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="slice_engine_package" />
+            <top_module name="slice_engine_tb" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="7933167fs"></ZoomStartTime>
+      <ZoomEndTime time="7995468fs"></ZoomEndTime>
+      <Cursor1Time time="7863167fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="216"></NameColumnWidth>
+      <ValueColumnWidth column_width="88"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="32" />
+   <wvobject type="logic" fp_name="/slice_engine_tb/slice_engine/\GEN_RAM_wrapper(0)\/slice_engine_RAM_wrapper_i/CNT_Buffer/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/slice_engine_tb/slice_engine/\GEN_RAM_wrapper(0)\/slice_engine_RAM_wrapper_i/CNT_Buffer/srst">
+      <obj_property name="ElementShortName">srst</obj_property>
+      <obj_property name="ObjectShortName">srst</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/slice_engine_tb/slice_engine/\GEN_RAM_wrapper(0)\/slice_engine_RAM_wrapper_i/CNT_Buffer/din">
+      <obj_property name="ElementShortName">din[19:0]</obj_property>
+      <obj_property name="ObjectShortName">din[19:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/slice_engine_tb/slice_engine/\GEN_RAM_wrapper(0)\/slice_engine_RAM_wrapper_i/CNT_Buffer/wr_en">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/slice_engine_tb/slice_engine/\GEN_RAM_wrapper(0)\/slice_engine_RAM_wrapper_i/CNT_Buffer/rd_en">
+      <obj_property name="ElementShortName">rd_en</obj_property>
+      <obj_property name="ObjectShortName">rd_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/slice_engine_tb/slice_engine/\GEN_RAM_wrapper(0)\/slice_engine_RAM_wrapper_i/CNT_Buffer/dout">
+      <obj_property name="ElementShortName">dout[19:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[19:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/slice_engine_tb/slice_engine/\GEN_RAM_wrapper(0)\/slice_engine_RAM_wrapper_i/CNT_Buffer/full">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/slice_engine_tb/slice_engine/\GEN_RAM_wrapper(0)\/slice_engine_RAM_wrapper_i/CNT_Buffer/empty">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/slice_engine_tb/slice_engine/\GEN_RAM_wrapper(0)\/slice_engine_RAM_wrapper_i/CNT_Buffer/data_count">
+      <obj_property name="ElementShortName">data_count[4:0]</obj_property>
+      <obj_property name="ObjectShortName">data_count[4:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/slice_engine_tb/slice_engine/\GEN_RAM_wrapper(0)\/slice_engine_RAM_wrapper_i/CNT_Buffer/wr_rst_busy">
+      <obj_property name="ElementShortName">wr_rst_busy</obj_property>
+      <obj_property name="ObjectShortName">wr_rst_busy</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/slice_engine_tb/slice_engine/\GEN_RAM_wrapper(0)\/slice_engine_RAM_wrapper_i/CNT_Buffer/rd_rst_busy">
+      <obj_property name="ElementShortName">rd_rst_busy</obj_property>
+      <obj_property name="ObjectShortName">rd_rst_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider164" type="divider">
+   </wvobject>
+   <wvobject type="logic" fp_name="/slice_engine_tb/slice_engine/\GEN_RAM_wrapper(0)\/slice_engine_RAM_wrapper_i/slice_engine_fifo_cnt/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/slice_engine_tb/slice_engine/\GEN_RAM_wrapper(0)\/slice_engine_RAM_wrapper_i/slice_engine_fifo_cnt/srst">
+      <obj_property name="ElementShortName">srst</obj_property>
+      <obj_property name="ObjectShortName">srst</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/slice_engine_tb/slice_engine/\GEN_RAM_wrapper(0)\/slice_engine_RAM_wrapper_i/slice_engine_fifo_cnt/din">
+      <obj_property name="ElementShortName">din[19:0]</obj_property>
+      <obj_property name="ObjectShortName">din[19:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/slice_engine_tb/slice_engine/\GEN_RAM_wrapper(0)\/slice_engine_RAM_wrapper_i/slice_engine_fifo_cnt/wr_en">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/slice_engine_tb/slice_engine/\GEN_RAM_wrapper(0)\/slice_engine_RAM_wrapper_i/slice_engine_fifo_cnt/rd_en">
+      <obj_property name="ElementShortName">rd_en</obj_property>
+      <obj_property name="ObjectShortName">rd_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/slice_engine_tb/slice_engine/\GEN_RAM_wrapper(0)\/slice_engine_RAM_wrapper_i/slice_engine_fifo_cnt/dout">
+      <obj_property name="ElementShortName">dout[19:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[19:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/slice_engine_tb/slice_engine/\GEN_RAM_wrapper(0)\/slice_engine_RAM_wrapper_i/slice_engine_fifo_cnt/full">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/slice_engine_tb/slice_engine/\GEN_RAM_wrapper(0)\/slice_engine_RAM_wrapper_i/slice_engine_fifo_cnt/empty">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/slice_engine_tb/slice_engine/\GEN_RAM_wrapper(0)\/slice_engine_RAM_wrapper_i/slice_engine_fifo_cnt/data_count">
+      <obj_property name="ElementShortName">data_count[4:0]</obj_property>
+      <obj_property name="ObjectShortName">data_count[4:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/slice_engine_tb/slice_engine/\GEN_RAM_wrapper(0)\/slice_engine_RAM_wrapper_i/slice_engine_fifo_cnt/wr_rst_busy">
+      <obj_property name="ElementShortName">wr_rst_busy</obj_property>
+      <obj_property name="ObjectShortName">wr_rst_busy</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/slice_engine_tb/slice_engine/\GEN_RAM_wrapper(0)\/slice_engine_RAM_wrapper_i/slice_engine_fifo_cnt/rd_rst_busy">
+      <obj_property name="ElementShortName">rd_rst_busy</obj_property>
+      <obj_property name="ObjectShortName">rd_rst_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider251" type="divider">
+   </wvobject>
+   <wvobject type="logic" fp_name="/slice_engine_tb/slice_engine/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/slice_engine_tb/slice_engine/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/slice_engine_tb/slice_engine/ready">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/slice_engine_tb/slice_engine/data_in">
+      <obj_property name="ElementShortName">data_in[63:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/slice_engine_tb/slice_engine/meta_data">
+      <obj_property name="ElementShortName">meta_data</obj_property>
+      <obj_property name="ObjectShortName">meta_data</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/slice_engine_tb/slice_engine/valid_data">
+      <obj_property name="ElementShortName">valid_data</obj_property>
+      <obj_property name="ObjectShortName">valid_data</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/slice_engine_tb/slice_engine/data_out">
+      <obj_property name="ElementShortName">data_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/slice_engine_tb/slice_engine/valid_data_out">
+      <obj_property name="ElementShortName">valid_data_out</obj_property>
+      <obj_property name="ObjectShortName">valid_data_out</obj_property>
+   </wvobject>
+</wave_config>
